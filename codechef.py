@@ -123,7 +123,7 @@ def main():
 	
 
 	# open the created files using the given text editor
-	text_editor='subl'
+	text_editor='gedit'
 	try:
 		for i in problems:
 			os.system('%s ~/Desktop/Python/%s'%(text_editor,i))
