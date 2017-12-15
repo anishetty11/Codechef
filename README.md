@@ -12,5 +12,4 @@ New Directory under the name of the contest will be created
 And within that directory, files corresponfing to each problem will be created.
 
 The files will also be opened in a text editor.
-However, the default text editor is set to "gedit". This can be changed in the
-program by changing the value of "text_editor" variable at line 126
+The program will ask for the name of your favourite text editor (e.g. gedit). And on giving the favorite text editor, the problems will be opened using that text editor.
