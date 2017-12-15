@@ -123,7 +123,9 @@ def main():
 	
 
 	# open the created files using the given text editor
-	text_editor='gedit'
+	text_editor=input("\n\n\nEnter you favourite text editor \n\
+		e.q: if your fav text editor is Sublime-text: Enter subl\n")
+
 	try:
 		for i in problems:
 			os.system('%s ~/Desktop/Python/%s'%(text_editor,i))
